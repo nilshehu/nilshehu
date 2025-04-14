@@ -1,6 +1,6 @@
-h1
+/* p
 {
-   margin-top: auto;
+  /* margin-top: auto;
    margin-right: auto;
 margin-bottom: auto;
 margin-left: auto;
@@ -10,6 +10,35 @@ div {
     padding-top: auto;
     padding-right: auto;
  padding-bottom: auto;
- padding-left: auto;
+ padding-left: auto;} */
+
+
+body{
+   /*background-color: blue;*/
+   background: url('../images/download.jpg');
+   background-size: cover;
+ }
+
+
+div{
+   /* max-width: 500px;
+   height: 200px;
+  background-color:blue;  */
+
+   width: 200px;
+   height: 400px;
+   padding: 20px;
+   border: 15px solid blue;
+}
+P{
+   color: black;
+   /*color: rgb(red, green, blue);
+   /*color: #00ffff;*/
+   border-width: 22px;
+   border-style: solid black ;
+   
 
 }
+   
+
+   
