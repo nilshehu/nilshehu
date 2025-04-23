@@ -50,3 +50,20 @@ heigh:20%
     font-style: normal;
     font-weight: normal;
 }
+
+
+a:link{
+    color: burlywood;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+a:active{
+    color: cornflowerblue;
+}
+
+a:visited{
+    color: dodgerblue;
+}
