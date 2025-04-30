@@ -1,0 +1,48 @@
+#static-postion{
+    position: static;
+   border: 2px solid blue;
+   height: 250px;
+   width: 250px;
+   padding: 20px;
+}
+
+#relative-postion{
+    position: relative;
+   border: 2px solid blue;
+   height: 250px;
+   width: 250px;
+   padding: 20px;
+   left: 22px;
+   top: 222px;
+}
+
+#fixed-postion{
+    position: relative;
+   border: 2px solid blue;
+   height: 250px;
+   width: 250px;
+   padding: 20px;
+   left: 22px;
+   top: 22px;
+}
+#h1fixed-postion{
+    position: relative;
+   border: 2px solid blue;
+   height: 250px;
+   width: 250px;
+   padding: 20px;
+   left: 22px;
+   top: 22px;
+}
+#parent{
+    position: relative;
+   border: 2px solid blue;
+   height: 250px;
+   width: 250px;
+   padding: 20px;
+   left: 22px;
+   top: 22px;
+}
+
+
+
