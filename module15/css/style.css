@@ -43,6 +43,13 @@
    left: 22px;
    top: 22px;
 }
+#divsticky{
+    position: sticky;
+    background-color: cornflowerblue;
+    padding: 20px;
+    top: 0;
+    color: darkslategray;
+}
 
 
 

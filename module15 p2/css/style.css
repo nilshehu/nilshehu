@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#horizontal-menu {
+    background-color: blue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#horizontal-menu li {
+    float: left;
+}
+
+#horizontal-menu li a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#horizontal-menu li a:hover:not(.active) {
+    background-color: cornflowerblue;
+}
+
+.active {
+    background-color: crimson;
+}
+
+
+
+.navbar{
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: antiquewhite;
+    text-align: center;
+    padding:14px,16px ;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    float: left;
+    font-size: 16px;
+    color: antiquewhite;
+    padding:14px,16px ;
+    overflow: hidden;
+    background-color: black;
+    outline: none;
+    font: inherit;
+   
+
+}
+
+
+.navbar a:hover, .dropdown :hover .dropbtn{
+background-color: chartreuse;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    left: 0%;
+    box-shadow: 0px,8px,16px,0px black;
+}
+.dropdown :hover .dropdown-content{
+    display: block;
+}
+
+.column{
+    float: left;
+    color: antiquewhite;
+    padding:10px;
+    overflow: hidden;
+    background-color: black;
+    width: 33%,33%;
+    height: 250%;
+
+   
+}
+
+.column a{
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    background-color: black;
+    display: block;
+    text-align: left;
+
+}
+
+.column a:hover{
+    background-color: brown;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
