@@ -116,3 +116,36 @@ background-color: chartreuse;
     clear: both;
 }
 
+
+
+
+#vertical-menu{
+    padding: 0;
+    width: 25%;
+    margin: 0%;
+    height: 150%;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: hidden;
+
+}
+
+
+#vertical-menu li a{
+    text-decoration: none;
+    display: block;
+    color: blue;
+
+}
+
+#vertical-menu li a.active{
+    background-color: green;
+    color: white;
+}
+
+
+#vertical-menu li a.hover:not(.active){
+    background-color: gray;
+    color: white;
+}
+
