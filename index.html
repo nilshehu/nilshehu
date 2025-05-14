@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dog Health Chatbot</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="horizontal-menu">
+            <li><a href="#chatbox">Chatbox</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="chatbox" class="chatbox">
+        <h2>Dog Health Chatbox</h2>
+        <div class="chat-window" id="chat-window">
+            <div class="message bot">Hi! I'm here to help diagnose common dog problems. What is the problem with your dog?</div>
+        </div>
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Describe your dog's symptoms..." required />
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DogCare AI Assistant</p>
+    </footer>
+    <script src="script.js"></script>
+
+    <form id="chat-form">
+    <input type="text" id="user-input" placeholder="Type your message" />
+    <button type="submit">Send</button>
+</form>
+<div id="chat-window"></div>
+
+</body>
+</html>
