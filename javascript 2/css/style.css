@@ -1,0 +1,10 @@
+.test{
+    font-size: 30px;
+    color: red;
+    background-color: black;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}

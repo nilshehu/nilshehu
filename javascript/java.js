@@ -60,3 +60,30 @@ var person = {
         this.name = name;
     }
 };
+function computer(name, cpu, ram, gpu) {
+    this.name = name;
+    this.cpu = cpu;
+    this.ram = ram;
+    this.gpu = gpu;
+}
+
+var computer1 = new computer("macbook", "intel core8", "8gb", "rtx5090");
+ window.onload = function() {
+    var button1 = document.getElementById("btn1");
+    var button2 = document.getElementById("btn2");
+    var button3 = document.getElementById("btn3");
+    var button4 = document.getElementById("btn4");
+    
+    button1.onclick = function() {
+        alert("hello<3");
+    };
+    button2.onclick = function() {
+        alert("You clicked button 2!");
+    };
+    button3.onclick = function() {
+        alert("This is button 3!");
+    };
+    button4.onclick = function() {
+        alert("Button 4 pressed!");
+    };
+};
