@@ -1,0 +1,35 @@
+#square {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 20px auto;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+    margin: 20px auto;
+}
+
+.shape {
+    display: none;
+}
+
+#static-postion {
+    position: static;
+    border: 2px solid blue;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}
