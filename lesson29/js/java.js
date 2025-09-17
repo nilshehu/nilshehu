@@ -28,3 +28,13 @@ function unshift() {
     langueges.unshift("ruby");
     console.log(langueges);
 }
+
+console.log(Math.random());
+
+console.log(Math.floor(Math.random())*5);
+
+var students=["john","sara",];
+var [s1,s2]=students;
+
+console.log(s1);
+console.log(s2);
