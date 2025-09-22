@@ -16,3 +16,22 @@ var text=document.getElementById("text_id");
 button.oneclick = function(){
     text.innerhtml=input.value;
 }
+
+
+
+var input=document.getElementById("input_id");
+var button=document.getElementById("button_id");
+var text=document.getElementById("text_id");
+var input=document.getElementById("input_id");
+var button=document.getElementById("button_id");
+var text=document.getElementById("text_id");
+
+
+button.oneclick = function(){
+    text.innerhtml=input1.value;
+}
+
+
+button.oneclick = function(){
+    text.innerhtml=input2.value;
+}
