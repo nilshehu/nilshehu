@@ -1,0 +1,109 @@
+body{
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    background-color: #0b0b0f;
+    color: #f3f4f6;
+    font-size: 18px;
+    margin: 0;
+    padding: 18px;
+    line-height: 1.45;
+}
+header{
+    background: linear-gradient(180deg,#2b2b2b,#1a1a1a);
+    color: #fff;
+    padding: 18px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+header h1{ 
+    margin:0; font-size:1.4rem; letter-spacing:0.6px; }
+header nav{ 
+    margin-top:10px; }
+header nav a{
+    color:#fff;
+    background:#bada55;
+    padding:6px 10px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-right:8px;
+    font-weight:700;
+}
+nav{
+    background-color: gray;
+    color: violet;
+    padding: 20px;
+    text-align: left;
+}
+nav a{
+    color: tomato;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+ul{
+    max-width:900px;
+    margin:18px auto;
+    padding:0;
+    list-style:none;
+}
+ul li{
+    background: #121216;
+    padding:14px;
+    border-radius:10px;
+    margin-bottom:10px;
+    color:#dcdcdc;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+.container{
+    max-width:900px;
+    margin:14px auto;
+    padding:16px;
+    background:#0f0f12;
+    border-radius:10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    color: #fff;
+}
+.inputbox{
+    width:100%;
+    padding:10px 12px;
+    border-radius:8px;
+    border:1px solid rgba(255,255,255,0.06);
+    background:#131316;
+    color:#fff;
+    margin-top:8px;
+}
+.btn1, .btn2{
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    font-weight:700;
+}
+.btn2{
+    background:#0099ff;
+    color:#fff;
+    margin-left:8px;
+}
+.btn1:hover, .btn2:hover{
+    transform: translateY(-3px);
+    opacity:0.98;
+    transition: all .14s ease;
+}
+
+
+#sendToggle:checked + .inputbox {
+    color: transparent;        
+    caret-color: transparent;  
+    text-shadow: none;         
+    transition: color .18s ease;
+}
+
+@media (max-width:700px){
+    header{ padding:12px }
+    .container, ul{ margin:12px; padding:12px }
+}
